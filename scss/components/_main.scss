@@ -19,18 +19,18 @@ html {
 
 h1 {
 	color: turquoise;
-	font-family: 'Franklin Gothic', Helvetica, sans-serif;
+	font-family: $franklin;
 }
 
 hr {
 	background: teal;
 	height: 1px;
-	background: -webkit-gradient(linear, 0 0, 100% 0, from(white), to(white), color-stop(50%, black));
+	background: -webkit-gradient(linear, 0 0, 100% 0, from($white), to($white), color-stop(50%, $black));
 }
 
 .btn {
-	background-color: turquoise;
-	color: #fff;
+	background-color: $turquoise;
+	color: $white;
 	font-weight: bold;
 	text-decoration: none;
 	padding: .5em 1em;
@@ -42,5 +42,5 @@ hr {
 .btn:hover,
 .btn:active,
 .btn:focus {
-	background-color: yellowgreen;
+	background-color: $green;
 }
