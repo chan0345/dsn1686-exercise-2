@@ -25,6 +25,7 @@
 
 html {
   box-sizing: border-box;
+  font-family: "Franklin Gothic", Helvetica, sans-serif;
   -moz-text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -57,8 +58,6 @@ hr {
   display: block;
 }
 
-.btn:hover,
-.btn:active,
-.btn:focus {
+.btn:hover {
   background-color: #b4e55e;
 }

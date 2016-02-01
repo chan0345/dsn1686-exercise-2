@@ -6,6 +6,7 @@
 
 html {
 	box-sizing: border-box;
+	font-family: $franklin;
 
 	-moz-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
@@ -37,10 +38,7 @@ hr {
 	border-radius: 5px;
 	margin-bottom: .5em;
 	display: block;
-}
-
-.btn:hover,
-.btn:active,
-.btn:focus {
-	background-color: $green;
+	&:hover {
+		background-color: $green;
+	}
 }
