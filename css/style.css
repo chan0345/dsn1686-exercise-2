@@ -44,7 +44,7 @@ h1 {
 hr {
   background: #33cccc;
   height: 1px;
-  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #000));
+  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#33cccc), to(#fff));
 }
 
 .btn {
