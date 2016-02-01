@@ -46,7 +46,7 @@ hr {
   border: none;
   background: #33cccc;
   height: 2px;
-  background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 75%, from(#33cccc), to(#fff));
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #33cccc));
 }
 
 .btn {
