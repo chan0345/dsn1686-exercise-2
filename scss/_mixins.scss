@@ -1,4 +1,4 @@
-@mixin button($background, $font, $hover) {
+@mixin button($background, $font) {
 	background-color: $background;
 	color: $font;
 	padding: .5em 1em;

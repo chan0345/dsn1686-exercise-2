@@ -24,9 +24,11 @@ h1 {
 }
 
 hr {
+	display: block;
+	border: none;
 	background: $turquoise;
-	height: 1px;
-	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from($turquoise), to(#fff));
+	height: 2px;
+	background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from($turquoise), to($white));
 }
 
 .btn {

@@ -42,8 +42,10 @@ h1 {
 }
 
 hr {
+  display: block;
+  border: none;
   background: #33cccc;
-  height: 1px;
+  height: 2px;
   background: -webkit-gradient(radial, 50% 50%, 0, 50% 50%, 350, from(#33cccc), to(#fff));
 }
 
