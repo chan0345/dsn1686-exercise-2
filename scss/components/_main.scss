@@ -18,12 +18,12 @@ html {
 }
 
 h1 {
-	color: turquoise;
+	color: $turquoise;
 	font-family: $franklin;
 }
 
 hr {
-	background: teal;
+	background: $turquoise;
 	height: 1px;
 	background: -webkit-gradient(linear, 0 0, 100% 0, from($white), to($white), color-stop(50%, $black));
 }

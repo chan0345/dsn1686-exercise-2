@@ -36,12 +36,12 @@ html {
 }
 
 h1 {
-  color: turquoise;
+  color: #33cccc;
   font-family: "Franklin Gothic", Helvetica, sans-serif;
 }
 
 hr {
-  background: teal;
+  background: #33cccc;
   height: 1px;
   background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #000));
 }
