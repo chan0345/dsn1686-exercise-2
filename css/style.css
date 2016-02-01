@@ -44,9 +44,9 @@ h1 {
 hr {
   display: block;
   border: none;
-  background: #33cccc;
+  background: #b4e55e;
   height: 2px;
-  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #33cccc));
+  background: -webkit-gradient(linear, 0 0, 100% 0, from(#fff), to(#fff), color-stop(50%, #b4e55e));
 }
 
 .btn {

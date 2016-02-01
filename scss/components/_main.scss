@@ -26,9 +26,9 @@ h1 {
 hr {
 	display: block;
 	border: none;
-	background: $turquoise;
+	background: $green;
 	height: 2px;
-	background: -webkit-gradient(linear, 0 0, 100% 0, from($white), to($white), color-stop(50%, $turquoise));
+	background: -webkit-gradient(linear, 0 0, 100% 0, from($white), to($white), color-stop(50%, $green));
 }
 
 .btn {
